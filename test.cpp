@@ -5,8 +5,6 @@ using namespace cv;
 int main(int argc, char** argv )
 {
     std::cout<<"!111"<<std::endl;
-:qw
-
     Mat image;
     std::cout<<image.channels()<<std::endl;
     imshow("Display Image", image);
